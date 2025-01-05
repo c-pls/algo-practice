@@ -1,6 +1,31 @@
+bin = [
+    {name="leetcode_1_two_sum", path = "src/leetcode/1.two_sum/two_sum.rs"}
+]
 [package]
-name = "algo"
-version = "0.1.0"
+name = "algo-practice"
+version = "1.0.0"
 edition = "2021"
 
+# Don't publish  on crates.io!
+publish = false
+
 [dependencies]
+
+[profile.dev]
+panic = "unwind"   # Stack trace for easier debugging
+debug = true        # Keep debug symbols for easier inspection
+
+[lints.rust]
+unsafe_code = "forbid"
+unstable_features = "forbid"
+dead_code = "allow"
+
+[lints.clippy]
+# You forgot a `todo!()`!
+todo = "forbid"
+# No infinite loops are needed.
+infinite_loop = "deny"
+# You shouldn't leak memory
+mem_forget = "deny"
+# Dead code warnings 
+dead_code = "allow"

@@ -1,5 +1,5 @@
 bin = [
-    {name="leetcode_1_two_sum", path = "src/leetcode/1.two_sum/two_sum.rs"}
+    { name = "leetcode_1_two_sum", path = "src/leetcode/1.two_sum/two_sum.rs" },
 ]
 [package]
 name = "algo-practice"
@@ -12,8 +12,8 @@ publish = false
 [dependencies]
 
 [profile.dev]
-panic = "unwind"   # Stack trace for easier debugging
-debug = true        # Keep debug symbols for easier inspection
+panic = "unwind" # Stack trace for easier debugging
+debug = true     # Keep debug symbols for easier inspection
 
 [lints.rust]
 unsafe_code = "forbid"

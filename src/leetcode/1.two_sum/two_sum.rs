@@ -8,9 +8,8 @@ impl Solution {
         for (idx, &num) in nums.iter().enumerate() {
             if let Some(&i) = m.get(&(target - num)) {
                 return vec![idx as i32, i as i32];
-            } else {
-                m.insert(num, idx);
             }
+            m.insert(num, idx);
         }
 
         Vec::new()

@@ -1,3 +1,4 @@
+use std::cmp;
 struct Solution;
 impl Solution {
     pub fn max_profit(prices: Vec<i32>) -> i32 {
@@ -9,15 +10,8 @@ impl Solution {
         let mut min_price = prices[0];
 
         for &price in prices.iter() {
-            if price < min_price {
-                min_price = price;
-                continue;
-            }
-
-            if price - min_price > max_profit {
-                max_profit = price - min_price
-            }
-
+            min_price = cmp::min(price, min_price);
+            max_profit = cmp::max(price - min_price, max_profit)
         }
         max_profit
     }

@@ -1,6 +1,7 @@
 bin = [
     { name = "leetcode_1_two_sum", path = "src/leetcode/1.two_sum/two_sum.rs" },
     { name = "leetcode_121_best_time_to_buy_and_sell_stock", path = "src/leetcode/121.best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.rs" },
+    { name = "leetcode_88_merge_sorted_array", path = "src/leetcode/88.merge_sorted_array/merge_sorted_array.rs" },
 ]
 [package]
 name = "algo-practice"

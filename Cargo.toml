@@ -2,6 +2,7 @@ bin = [
     { name = "leetcode_1_two_sum", path = "src/leetcode/1.two_sum/two_sum.rs" },
     { name = "leetcode_121_best_time_to_buy_and_sell_stock", path = "src/leetcode/121.best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock.rs" },
     { name = "leetcode_88_merge_sorted_array", path = "src/leetcode/88.merge_sorted_array/merge_sorted_array.rs" },
+    { name = "leetcode_28_find_the_index_of_the_first_occurrence_in_a_string", path = "src/leetcode/28.find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string.rs"}
 ]
 [package]
 name = "algo-practice"

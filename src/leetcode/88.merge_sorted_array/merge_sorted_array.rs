@@ -24,7 +24,7 @@ impl Solution {
         }
     }
 
-    pub fn merge_extra_space(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
+    pub fn merge_extra_space(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, _n: i32) {
         let mut combine_nums = nums1[0..m as usize].to_vec();
 
         combine_nums.extend(nums2.iter());

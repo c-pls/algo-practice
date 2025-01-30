@@ -5,6 +5,7 @@ bin = [
     { name = "leetcode_28_find_the_index_of_the_first_occurrence_in_a_string", path = "src/leetcode/28.find_the_index_of_the_first_occurrence_in_a_string/find_the_index_of_the_first_occurrence_in_a_string.rs" },
     { name = "leetcode_125_valid_palidrome", path = "src/leetcode/125.valid_palindrome/valid_palidrome.rs"},
     { name = "leetcode_383_ransom_note", path = "src/leetcode/383.ransom_note/ransom_note.rs" },
+    { name = "leetcode_242_valid_anagram", path = "src/leetcode/242.valid_anagram/valid_anagram.rs" },
 ]
 [package]
 name = "algo-practice"

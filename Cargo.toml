@@ -6,6 +6,7 @@ bin = [
     { name = "leetcode_125_valid_palidrome", path = "src/leetcode/125.valid_palindrome/valid_palidrome.rs"},
     { name = "leetcode_383_ransom_note", path = "src/leetcode/383.ransom_note/ransom_note.rs" },
     { name = "leetcode_242_valid_anagram", path = "src/leetcode/242.valid_anagram/valid_anagram.rs" },
+    { name = "leetcode_1550_three_consecutive_odds", path = "src/leetcode/1550.three_consecutive_odds/three_consecutive_odds.rs" },
 ]
 [package]
 name = "algo-practice"
